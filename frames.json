@@ -1,0 +1,43 @@
+{
+  "fps": 29.97,
+  "results": [
+    {
+      "frames": 0,
+      "input": "00:00:00;00",
+      "line": 1,
+      "ok": true,
+      "roundtrip": "00:00:00;00",
+      "roundtrip_diff": 0
+    },
+    {
+      "frames": 1800,
+      "input": "00:01:00;02",
+      "line": 2,
+      "ok": true,
+      "roundtrip": "00:01:00;02",
+      "roundtrip_diff": 0
+    },
+    {
+      "frames": 107892,
+      "input": "01:00:00;00",
+      "line": 3,
+      "ok": true,
+      "roundtrip": "01:00:00;00",
+      "roundtrip_diff": 0
+    },
+    {
+      "frames": 2589407,
+      "input": "23:59:59;29",
+      "line": 4,
+      "ok": true,
+      "roundtrip": "23:59:59;29",
+      "roundtrip_diff": 0
+    },
+    {
+      "error": "分钟位越界：99（应取 0-59）",
+      "input": "00:99:99;99",
+      "line": 5,
+      "ok": false
+    }
+  ]
+}

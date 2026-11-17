@@ -1,1 +1,1 @@
-"""时间码换算与丢帧处理"""
+from .core import *  # noqa: F401,F403

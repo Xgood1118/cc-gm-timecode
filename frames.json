@@ -34,10 +34,12 @@
       "roundtrip_diff": 0
     },
     {
-      "error": "分钟位越界：99（应取 0-59）",
+      "error": "分钟位（第 4 个字符起）越界：99（应取 0-59）",
+      "field": "分钟位",
       "input": "00:99:99;99",
       "line": 5,
-      "ok": false
+      "ok": false,
+      "position": 4
     }
   ]
 }
